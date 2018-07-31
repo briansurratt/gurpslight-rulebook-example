@@ -1,16 +1,17 @@
 package com.github.briansurratt.glrbe.skilltest;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class SkillTestTest {
 
+
+
     @Test
     public void three_is_a_critical_success() throws Exception {
 
-        final SkillTest skillTest = new SkillTest(18);
+        final SkillTest skillTest = new SkillTest(5);
 
         TestResult result = skillTest.test(3);
 
@@ -22,7 +23,7 @@ public class SkillTestTest {
     @Test
     public void four_is_a_critical_success() throws Exception {
 
-        final SkillTest skillTest = new SkillTest(18);
+        final SkillTest skillTest = new SkillTest(5);
 
         TestResult result = skillTest.test(4);
 
