@@ -2,7 +2,6 @@ package com.github.briansurratt.glrbe.skilltest;
 
 public class TestRoll {
 
-
     private final int _effectiveSkill;
     private final int _roll;
 
@@ -18,5 +17,5 @@ public class TestRoll {
     public int getRoll() {
         return _roll;
     }
-    
+
 }
